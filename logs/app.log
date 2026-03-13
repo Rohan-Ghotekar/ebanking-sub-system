@@ -19339,3 +19339,277 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2026-03-13T11:29:48.315+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-13T11:29:48.318+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-03-13T11:29:48.899+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-13T12:56:13.280+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Starting EbankingsubsystemApplication using Java 23.0.2 with PID 14060 (C:\GitHub\Pratiti Training\Project\ebankingsubsystem\target\classes started by rohan in C:\GitHub\Pratiti Training\Project\ebankingsubsystem)
+2026-03-13T12:56:13.287+05:30 DEBUG 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-13T12:56:13.288+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T12:56:13.408+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-13T12:56:13.410+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-13T12:56:15.961+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T12:56:16.007+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2026-03-13T12:56:16.655+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c0b3f00d-8ea5-359f-a333-16ccdfa3346e
+2026-03-13T12:56:18.060+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8000 (http)
+2026-03-13T12:56:18.091+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-13T12:56:18.091+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-13T12:56:18.259+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4848 ms
+2026-03-13T12:56:19.069+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-13T12:56:19.240+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-13T12:56:20.509+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T12:56:20.598+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-13T12:56:22.379+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f91d98b
+2026-03-13T12:56:22.386+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-13T12:56:22.542+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T12:56:23.035+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-patient-bar-a1xpvxur-pooler.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-13T12:56:23.983+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T12:56:24.004+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T12:56:24.316+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13T12:56:24.425+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-13T12:56:25.909+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-13T12:56:25.985+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-13T12:56:26.000+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-13T12:56:26.231+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-13T12:56:26.295+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-13T12:56:26.306+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-13T12:56:26.330+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-13T12:56:26.330+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-13T12:56:26.330+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-13T12:56:26.331+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-13T12:56:26.331+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-13T12:56:26.331+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-13T12:56:26.331+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-13T12:56:27.243+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-13T12:56:27.247+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-13T12:56:27.252+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-13T12:56:27.256+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773386787254 with initial instances count: 2
+2026-03-13T12:56:27.263+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EBANKINGSUBSYSTEM with eureka with status UP
+2026-03-13T12:56:27.264+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773386787264, current=UP, previous=STARTING]
+2026-03-13T12:56:27.267+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T12:56:27.318+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8000 (http) with context path '/'
+2026-03-13T12:56:27.319+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2026-03-13T12:56:27.353+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Started EbankingsubsystemApplication in 15.205 seconds (process running for 17.661)
+2026-03-13T12:56:27.440+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T12:56:28.759+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13T12:56:28.760+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-13T12:56:28.764+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-03-13T12:59:39.442+05:30  INFO 14060 --- [ebankingsubsystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 37 class path changes (36 additions, 0 deletions, 1 modification)
+2026-03-13T12:59:39.611+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EBANKINGSUBSYSTEM with eureka with status DOWN
+2026-03-13T12:59:39.615+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773386979615, current=DOWN, previous=UP]
+2026-03-13T12:59:39.616+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T12:59:39.761+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T12:59:39.930+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-13T12:59:40.016+05:30  INFO 14060 --- [ebankingsubsystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-13T12:59:40.234+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T12:59:40.414+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-13T12:59:41.417+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-13T12:59:41.428+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-13T12:59:44.445+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-13T12:59:44.520+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - deregister  status: 200
+2026-03-13T12:59:44.522+05:30  INFO 14060 --- [ebankingsubsystem] [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-13T12:59:45.738+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Starting EbankingsubsystemApplication using Java 23.0.2 with PID 14060 (C:\GitHub\Pratiti Training\Project\ebankingsubsystem\target\classes started by rohan in C:\GitHub\Pratiti Training\Project\ebankingsubsystem)
+2026-03-13T12:59:45.739+05:30 DEBUG 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-13T12:59:45.740+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T12:59:47.613+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T12:59:47.731+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2026-03-13T12:59:48.109+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=31b52f7b-acf0-341d-b0f9-6b8ab4391436
+2026-03-13T12:59:48.321+05:30  INFO 29052 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Starting EbankingsystemreApplicationTests using Java 23.0.2 with PID 29052 (started by rohan in C:\GitHub\Pratiti Training\Project\ebankingsubsystem)
+2026-03-13T12:59:48.324+05:30 DEBUG 29052 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-13T12:59:48.325+05:30  INFO 29052 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T12:59:48.452+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8000 (http)
+2026-03-13T12:59:48.460+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-13T12:59:48.460+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-13T12:59:48.631+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2883 ms
+2026-03-13T12:59:48.959+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-13T12:59:49.098+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T12:59:49.102+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-03-13T12:59:50.011+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@52093032
+2026-03-13T12:59:50.012+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-03-13T12:59:50.102+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T12:59:50.487+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-patient-bar-a1xpvxur-pooler.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-13T12:59:51.087+05:30  INFO 29052 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T12:59:51.520+05:30  INFO 29052 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 407 ms. Found 1 JPA repository interface.
+2026-03-13T12:59:51.953+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T12:59:52.320+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8e391f01-938a-3957-909b-70333f3ca931
+2026-03-13T12:59:52.415+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T12:59:52.695+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13T12:59:53.214+05:30  INFO 29052 --- [ebankingsubsystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-13T12:59:53.270+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13T12:59:53.313+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-13T12:59:53.415+05:30  INFO 29052 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-13T12:59:54.073+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-13T12:59:54.117+05:30  WARN 14060 --- [ebankingsubsystem] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-13T12:59:54.136+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-13T12:59:54.215+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-13T12:59:54.221+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-13T12:59:54.221+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-13T12:59:54.222+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-13T12:59:54.222+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-13T12:59:54.222+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-13T12:59:54.222+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-13T12:59:54.222+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-13T12:59:54.223+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-13T12:59:54.223+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-13T12:59:54.367+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-13T12:59:54.368+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-13T12:59:54.369+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-13T12:59:54.369+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773386994369 with initial instances count: 3
+2026-03-13T12:59:54.373+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EBANKINGSUBSYSTEM with eureka with status UP
+2026-03-13T12:59:54.373+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773386994373, current=UP, previous=STARTING]
+2026-03-13T12:59:54.374+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T12:59:54.382+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8000 (http) with context path '/'
+2026-03-13T12:59:54.384+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2026-03-13T12:59:54.412+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] com.rohan.EbankingsubsystemApplication   : Started EbankingsubsystemApplication in 8.884 seconds (process running for 224.718)
+2026-03-13T12:59:54.417+05:30  INFO 14060 --- [ebankingsubsystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-13T12:59:54.466+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T12:59:54.943+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T12:59:55.044+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-13T12:59:56.739+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b04689e
+2026-03-13T12:59:56.743+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-13T12:59:56.898+05:30  WARN 29052 --- [ebankingsubsystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T12:59:57.343+05:30  INFO 29052 --- [ebankingsubsystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-patient-bar-a1xpvxur-pooler.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-13T12:59:59.667+05:30  INFO 29052 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T13:00:00.126+05:30  INFO 29052 --- [ebankingsubsystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T13:00:00.375+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13T13:00:01.291+05:30  WARN 29052 --- [ebankingsubsystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13T13:00:01.401+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-13T13:00:01.680+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-13T13:00:01.681+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EBANKINGSUBSYSTEM with eureka with status DOWN
+2026-03-13T13:00:01.681+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773387001681, current=DOWN, previous=UP]
+2026-03-13T13:00:01.681+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T13:00:01.684+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-13T13:00:01.704+05:30  INFO 14060 --- [ebankingsubsystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-13T13:00:01.714+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T13:00:01.716+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-03-13T13:00:01.724+05:30  INFO 14060 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T13:00:02.748+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-03-13T13:00:02.749+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-13T13:00:03.331+05:30  INFO 29052 --- [ebankingsubsystem] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-13T13:00:03.434+05:30  WARN 29052 --- [ebankingsubsystem] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-13T13:00:03.452+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-13T13:00:03.654+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-13T13:00:03.729+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-13T13:00:03.741+05:30  INFO 29052 --- [ebankingsubsystem] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-13T13:00:03.769+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-13T13:00:03.770+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-13T13:00:04.774+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-13T13:00:04.781+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-13T13:00:04.786+05:30  INFO 29052 --- [ebankingsubsystem] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-13T13:00:04.792+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773387004789 with initial instances count: 3
+2026-03-13T13:00:04.800+05:30  INFO 29052 --- [ebankingsubsystem] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EBANKINGSUBSYSTEM with eureka with status UP
+2026-03-13T13:00:04.800+05:30  INFO 29052 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773387004800, current=UP, previous=STARTING]
+2026-03-13T13:00:04.804+05:30  INFO 29052 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T13:00:04.829+05:30  INFO 29052 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Started EbankingsystemreApplicationTests in 17.524 seconds (process running for 21.499)
+2026-03-13T13:00:04.977+05:30  INFO 29052 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T13:00:05.755+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-13T13:00:05.818+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - deregister  status: 200
+2026-03-13T13:00:05.819+05:30  INFO 14060 --- [ebankingsubsystem] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-13T13:00:06.052+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EBANKINGSUBSYSTEM with eureka with status DOWN
+2026-03-13T13:00:06.052+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773387006052, current=DOWN, previous=UP]
+2026-03-13T13:00:06.054+05:30  INFO 29052 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T13:00:06.071+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T13:00:06.076+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-13T13:00:06.099+05:30  INFO 29052 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T13:00:07.029+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-13T13:00:07.031+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-13T13:00:10.039+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-13T13:00:10.086+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - deregister  status: 200
+2026-03-13T13:00:10.088+05:30  INFO 29052 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-13T13:01:32.084+05:30  INFO 16476 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Starting EbankingsystemreApplicationTests using Java 23.0.2 with PID 16476 (started by rohan in C:\GitHub\Pratiti Training\Project\ebankingsubsystem)
+2026-03-13T13:01:32.086+05:30 DEBUG 16476 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-13T13:01:32.088+05:30  INFO 16476 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T13:01:34.476+05:30  INFO 16476 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T13:01:34.812+05:30  INFO 16476 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 314 ms. Found 1 JPA repository interface.
+2026-03-13T13:01:35.545+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8e391f01-938a-3957-909b-70333f3ca931
+2026-03-13T13:01:36.345+05:30  INFO 16476 --- [ebankingsubsystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-13T13:01:36.562+05:30  INFO 16476 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-13T13:01:38.049+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T13:01:38.144+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-13T13:01:39.890+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e212f46
+2026-03-13T13:01:39.893+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-13T13:01:40.057+05:30  WARN 16476 --- [ebankingsubsystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T13:01:40.503+05:30  INFO 16476 --- [ebankingsubsystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-patient-bar-a1xpvxur-pooler.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-13T13:01:42.962+05:30  INFO 16476 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T13:01:43.406+05:30  INFO 16476 --- [ebankingsubsystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T13:01:43.665+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13T13:01:44.527+05:30  WARN 16476 --- [ebankingsubsystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13T13:01:44.633+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-13T13:01:46.441+05:30  INFO 16476 --- [ebankingsubsystem] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-13T13:01:46.541+05:30  WARN 16476 --- [ebankingsubsystem] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-13T13:01:46.558+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-13T13:01:46.716+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-13T13:01:46.774+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-13T13:01:46.784+05:30  INFO 16476 --- [ebankingsubsystem] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-13T13:01:46.810+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-13T13:01:46.810+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-13T13:01:46.811+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-13T13:01:46.811+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-13T13:01:46.811+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-13T13:01:46.811+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-13T13:01:46.811+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-13T13:01:47.718+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-13T13:01:47.722+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-13T13:01:47.727+05:30  INFO 16476 --- [ebankingsubsystem] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-13T13:01:47.733+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773387107730 with initial instances count: 2
+2026-03-13T13:01:47.742+05:30  INFO 16476 --- [ebankingsubsystem] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EBANKINGSUBSYSTEM with eureka with status UP
+2026-03-13T13:01:47.743+05:30  INFO 16476 --- [ebankingsubsystem] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773387107743, current=UP, previous=STARTING]
+2026-03-13T13:01:47.749+05:30  INFO 16476 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T13:01:47.772+05:30  INFO 16476 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Started EbankingsystemreApplicationTests in 16.568 seconds (process running for 19.901)
+2026-03-13T13:01:47.899+05:30  INFO 16476 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T13:01:48.920+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EBANKINGSUBSYSTEM with eureka with status DOWN
+2026-03-13T13:01:48.921+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773387108921, current=DOWN, previous=UP]
+2026-03-13T13:01:48.921+05:30  INFO 16476 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000: registering service...
+2026-03-13T13:01:48.939+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T13:01:48.946+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-13T13:01:48.961+05:30  INFO 16476 --- [ebankingsubsystem] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - registration status: 204
+2026-03-13T13:01:49.862+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-13T13:01:49.864+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-13T13:01:52.872+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-13T13:01:52.935+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EBANKINGSUBSYSTEM/Rohan.mshome.net:ebankingsubsystem:8000 - deregister  status: 200
+2026-03-13T13:01:52.937+05:30  INFO 16476 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
