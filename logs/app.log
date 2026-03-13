@@ -19305,3 +19305,37 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2026-03-13T11:16:51.519+05:30  INFO 20140 --- [ebankingsubsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-13T11:16:51.524+05:30  INFO 20140 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-03-13T11:16:52.265+05:30  INFO 20140 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-13T11:29:40.389+05:30  INFO 6672 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Starting EbankingsystemreApplicationTests using Java 23.0.2 with PID 6672 (started by rohan in C:\GitHub\Pratiti Training\Project\ebankingsubsystem)
+2026-03-13T11:29:40.390+05:30 DEBUG 6672 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-13T11:29:40.391+05:30  INFO 6672 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T11:29:41.484+05:30  INFO 6672 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T11:29:41.553+05:30  INFO 6672 --- [ebankingsubsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-03-13T11:29:42.103+05:30  INFO 6672 --- [ebankingsubsystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-13T11:29:42.194+05:30  INFO 6672 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-13T11:29:42.815+05:30  INFO 6672 --- [ebankingsubsystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T11:29:42.854+05:30  INFO 6672 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-13T11:29:44.048+05:30  INFO 6672 --- [ebankingsubsystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c2188f
+2026-03-13T11:29:44.050+05:30  INFO 6672 --- [ebankingsubsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-13T11:29:44.146+05:30  WARN 6672 --- [ebankingsubsystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T11:29:44.432+05:30  INFO 6672 --- [ebankingsubsystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-patient-bar-a1xpvxur-pooler.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.8
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-13T11:29:45.524+05:30  INFO 6672 --- [ebankingsubsystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T11:29:45.852+05:30  INFO 6672 --- [ebankingsubsystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T11:29:45.992+05:30  INFO 6672 --- [ebankingsubsystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13T11:29:46.426+05:30  WARN 6672 --- [ebankingsubsystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-13T11:29:46.492+05:30  INFO 6672 --- [ebankingsubsystem] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-13T11:29:47.509+05:30  INFO 6672 --- [ebankingsubsystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-13T11:29:47.615+05:30  INFO 6672 --- [ebankingsubsystem] [main] c.r.EbankingsystemreApplicationTests     : Started EbankingsystemreApplicationTests in 7.601 seconds (process running for 9.062)
+2026-03-13T11:29:48.315+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T11:29:48.318+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-13T11:29:48.899+05:30  INFO 6672 --- [ebankingsubsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
